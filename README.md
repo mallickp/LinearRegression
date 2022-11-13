@@ -34,7 +34,7 @@ You are required to model the demand for shared bikes with the available indepen
 We carried out the analysis using the techique of elimation of variables with OLS method. Our training model resulted in a R square value of almost 81 percent which is acceptable. Which concludes that, almost 81 percent of the data of cnt present in the training set is explained by our independent variables.
 The final relationship between demand and predictors is as follows.
 
-cnt = 0.2379+0.235year+(-0.0907)holiday+0.4248temp+(-0.1591)windspeed+(-0.0434)dec+(-0.0522)jan+(-0.0393)nov+0.0823sep+(-0.2926)Light_snowrain+(-0.0787)Misty+(-0.0597)spring+0.0496summer+0.0988*winter
+cnt = 0.2379+0.235*year+(-0.0907)*holiday+0.4248*temp+(-0.1591)*windspeed+(-0.0434)*dec+(-0.0522)*jan+(-0.0393)*nov+0.0823*sep+(-0.2926)*Light_snowrain+(-0.0787)*Misty+(-0.0597)*spring+0.0496*summer+0.0988*winter
 
 Our test data set has returned a R Square of 81 percent, which states 81 percent of the data present in test set is explained by the model we have created. This is a descent result to achieve.
 
